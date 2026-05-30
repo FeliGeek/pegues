@@ -25,10 +25,10 @@ li {
 
 button {
     width: 200px;
-    height: 50px;
     text-align: left;
     font-size: 30px;
-    text-align: left
+    text-align: left;
+    color: black;
 }
 
 .limpiar {
