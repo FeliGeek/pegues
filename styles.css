@@ -21,17 +21,16 @@ section {
 article {
     display: flex;
     gap: 10px;
-    justify-self: center;
 }
 
 .boton1 {
-    font-size: 40px;
+    font-size: 30px;
     width: 250px;
     text-align: left;
 }
 
 .boton2 {
-    font-size: 40px;
+    font-size: 30px;
     width: fit-content;
 }
 
