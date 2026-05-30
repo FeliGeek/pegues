@@ -4,8 +4,8 @@ body {
     font-family: "Share Tech", sans-serif;
     font-weight: 400;
     font-style: normal;
-    justify-items: center;
     text-align: center;
+    align-items: center;
 }
 
 h1 {
@@ -25,15 +25,19 @@ li {
 }
 
 button {
+    display: flex;
     width: 200px;
     height: 50px;
     text-align: left;
     font-size: 30px;
     text-align: left;
     color: black;
+    align-items: center;
 }
 
 .limpiar {
+    display: flex;
     width: fit-content;
     height: 50px;
+    align-items: center;
 }
