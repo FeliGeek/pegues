@@ -6,6 +6,6 @@ boton1.addEventListener("click",function(){
 });
 
 boton2.addEventListener("click",function(){
-    boton1.textContent = "1 🔘";
+    boton1.textContent = "1";
 });
 
