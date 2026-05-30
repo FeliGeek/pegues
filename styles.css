@@ -4,20 +4,12 @@ body {
     font-family: "Share Tech", sans-serif;
     font-weight: 400;
     font-style: normal;
-    display: grid;
-    flex-wrap: wrap;
-    width: 100%;
+    width: 95%;
 }
 
 h1 {
     text-align: center;
     font-size: 90px;
-}
-
-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
 }
 
 li {
@@ -32,9 +24,9 @@ ul {
 }
 
 button {
-    font-size: 20px;
-    width: 100px;
-    height: 30px;
+    font-size: 30px;
+    width: 250px;
+    height: 43px;
     display: grid;
     justify-content: space-evenly;
 }
