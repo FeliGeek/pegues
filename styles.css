@@ -4,8 +4,6 @@ body {
     font-family: "Share Tech", sans-serif;
     font-weight: 400;
     font-style: normal;
-    text-align: center;
-    align-items: center;
 }
 
 h1 {
@@ -13,31 +11,20 @@ h1 {
     font-size: 90px;
 }
 
-ul {
-    display: grid;
-    gap: 25px;
-}
-
-li {
-    display: grid;
+article {
+    display: flex;
     gap: 10px;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    justify-self: center;
 }
 
-button {
-    display: flex;
-    width: 200px;
-    height: 50px;
-    text-align: left;
-    font-size: 30px;
-    color: black;
+.boton1 {
+    font-size: 40px;
+    width: 250px;
+    text-align: center;
 }
 
-.limpiar {
-    display: flex;
+.boton2 {
+    font-size: 40px;
     width: fit-content;
-    height: 50px;
-    align-items: center;
-    font-size: 30px;
 }
+
