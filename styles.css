@@ -11,6 +11,13 @@ h1 {
     font-size: 90px;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap: 15px;
+}
+
 article {
     display: flex;
     gap: 10px;
@@ -20,7 +27,8 @@ article {
 .boton1 {
     font-size: 40px;
     width: 250px;
-    text-align: center;
+    text-align: left;
+    text-indent: 50px;
 }
 
 .boton2 {
