@@ -33,4 +33,8 @@ button {
 
 .limpiar {
     width: fit-content;
+    font-size: 30px;
+    height: 43px;
+    display: grid;
+    justify-content: space-evenly;
 }
