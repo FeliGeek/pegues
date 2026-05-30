@@ -1,10 +1,10 @@
 body {
-    background-image: linear-gradient(to right, darkred, orange);
+    background-color: rgb(255, 0, 0);
     color: white;
     font-family: "Share Tech", sans-serif;
     font-weight: 400;
     font-style: normal;
-    width: 95%;
+    justify-items: center;
 }
 
 h1 {
@@ -12,29 +12,24 @@ h1 {
     font-size: 90px;
 }
 
+ul {
+    display: grid;
+    gap: 25px;
+}
+
 li {
-    list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-ul {
-    display: grid;
-    gap: 10px;
-}
-
 button {
-    font-size: 30px;
     width: 250px;
-    height: 43px;
-    display: grid;
-    justify-content: space-evenly;
+    height: 50px;
+    text-align: left;
+    font-size: 30px;
+    text-align: center;
 }
 
 .limpiar {
     width: fit-content;
-    font-size: 30px;
-    height: 43px;
-    display: grid;
-    justify-content: space-evenly;
 }
