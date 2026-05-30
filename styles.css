@@ -36,3 +36,8 @@ article {
     width: fit-content;
 }
 
+footer {
+    font-size: 30px;
+    margin: 30px;
+    text-align: center;
+}
